@@ -20,6 +20,7 @@ router.post('/login', (req, res) => {
     });
 });
 /** *************************** <end>users dispatchers *********************************/
+/** *************************** <end>users dispatchers *********************************/
 
 /** *************************** <start>task dispatchers *********************************/
 router.post('/getImageThumnail', isLoggedIn, (req, res) => {
