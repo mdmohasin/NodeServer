@@ -2,12 +2,12 @@ import jwt from 'jsonwebtoken';
 import { JWT_SECRET } from './../utils/constants';
 import { consoleLog, consoleError } from '../utils/logging';
 /**
- *
  * @param {*} req
  * @param {*} res
  * @param {*} next
  * @Note : further this can be used as a authrization layer for each request
  * //todo: need to check the session storage at login
+ * //checking merge
  */
 function isLoggedIn(req, res, next) {     // jwt authentication
   consoleLog(req.body);
