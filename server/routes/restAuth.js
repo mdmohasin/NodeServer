@@ -2,7 +2,6 @@ import jwt from 'jsonwebtoken';
 import { JWT_SECRET } from './../utils/constants';
 import { consoleLog, consoleError } from '../utils/logging';
 /**
- *
  * @param {*} req
  * @param {*} res
  * @param {*} next
