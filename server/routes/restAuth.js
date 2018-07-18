@@ -8,6 +8,7 @@ import { consoleLog, consoleError } from '../utils/logging';
  * @Note : further this can be used as a authrization layer for each request
  * //todo: need to check the session storage at login
  * //checking merge
+ * //checking merge1
  */
 function isLoggedIn(req, res, next) {     // jwt authentication
   consoleLog(req.body);
