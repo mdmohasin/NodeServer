@@ -10,8 +10,8 @@ const loginParamsTrue = {
     password: 'kapoor',
 };
 const loginParamsFalse = {
-    usernam: 'vidu',
-    password: 'kapoor',
+    usernam: 'vidux',
+    password: 'kapoorx',
 };
 /* global describe x:true*/
 /* global it x:true*/
