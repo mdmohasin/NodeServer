@@ -6,12 +6,12 @@ const expect = chai.expect;
 
 chai.use(chaiHttp);
 const loginParamsTrue = {
-    username: 'vidu',
-    password: 'kapoor',
+    username: 'mohasin',
+    password: 'mohasin',
 };
 const loginParamsFalse = {
-    usernam: 'vidu',
-    password: 'kapoor',
+    usernam: 'mohasin',
+    password: 'mohasin',
 };
 /* global describe x:true*/
 /* global it x:true*/
